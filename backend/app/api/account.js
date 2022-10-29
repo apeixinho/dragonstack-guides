@@ -14,7 +14,7 @@ router.post('/signup', (req, res, next) => {
   const passwordHash = hash(password);
 
   AccountTable.getAccount({ usernameHash })
-    .then(({ account }) => {
+    .then(({ account }) => { 
       if (!account) {
         return AccountTable.storeAccount({ usernameHash, passwordHash })
       } else {
