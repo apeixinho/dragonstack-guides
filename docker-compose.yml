@@ -19,8 +19,8 @@ services:
       POSTGRES_DB: dragonstackdb
       POSTGRES_USER: d_user
       POSTGRES_PASSWORD: d_pass
-      TZ: 'UTC+1'
-      PGTZ: 'UTC+1'
+      # TZ: 'UTC+1'
+      # PGTZ: 'UTC+1'
 
 networks:
   default:

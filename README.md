@@ -2,6 +2,13 @@
 
 The official code for the *Master Full-Stack Development | Node, SQL, React, and More* course on Udemy by David Joseph Katz.
 
+Don't buy it. It's nearly worthless, nowadays. 
+
+This repository, however, retains some value.
+
+Why?
+- It's functional, I've gonne throught most of the Q&A and sort it out (good luck getting the original repository code working, without Udemy Q&A. Contacting the instructor will probably get you nowwhere ... but slowly, very slowly)
+
 Check out the course: [https://www.udemy.com/full-stack](https://www.udemy.com/full-stack)
 
 This course is a full-stack web application with both a backend and a frontend. It uses Node.js, Express.js, and PostgreSQL on the backend to create a server, api, and manage the database. For the frontend, dragonstack uses React.js, Redux, and various JavaScript modules.
