@@ -1,11 +1,13 @@
 {
   "name": "dragonstack",
   "version": "1.0.0",
-  "description": "Node, SQL, React course on Udemy by David Joseph Katz. Don't buy it. It's nearly worthless, nowadays. This repository, however, retains value",
+  "description": "Node, SQL, React course on Udemy by David Joseph Katz. Don't buy it. It's nearly worthless, nowadays. This repository, however, retains some of its value",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run installBackend & npm run installFrontend && npm install && concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "installBackend": "npm --prefix ./backend install ./backend",
+    "installFrontend": "npm --prefix ./frontend install ./frontend",
     "backend": "nodemon backend/bin/server",
     "frontend": "parcel frontend/src/index.html"
   },

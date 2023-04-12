@@ -15,6 +15,7 @@
     "process": false
   },
   "dependencies": {
+    "dragonstack": "file:..",
     "history": "^4.10.1",
     "react": "^16.14.0",
     "react-bootstrap": "^0.33.1",
@@ -26,7 +27,7 @@
     "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
+    "@babel/core": "^7.21.4",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "process": "^0.11.10"
