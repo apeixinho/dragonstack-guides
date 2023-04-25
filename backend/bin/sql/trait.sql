@@ -1,3 +1,5 @@
+BEGIN;
+
 CREATE TABLE trait(
   id           SERIAL PRIMARY KEY,
   "traitType"  VARCHAR NOT NULL,
@@ -23,3 +25,5 @@ INSERT INTO trait ("traitType","traitValue") values ('size','small');
 INSERT INTO trait ("traitType","traitValue") values ('size','medium');
 INSERT INTO trait ("traitType","traitValue") values ('size','large');
 INSERT INTO trait ("traitType","traitValue") values ('size','enormous');
+
+COMMIT;

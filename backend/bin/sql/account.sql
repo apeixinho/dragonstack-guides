@@ -1,3 +1,4 @@
+BEGIN;
 CREATE TABLE account(
   id             SERIAL PRIMARY KEY,
   "usernameHash" CHARACTER(64),
@@ -5,3 +6,4 @@ CREATE TABLE account(
   "sessionId"    CHARACTER(36),
   balance        INTEGER NOT NULL
 );
+COMMIT;
