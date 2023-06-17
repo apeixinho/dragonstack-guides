@@ -12,7 +12,7 @@ Why?
 - It works, it compiles and executes;
 
 How?
-- I've gonne throught most of the Q&A and sorted out how to get it working. Good luck getting the original repository code working, without Udemy Q&A. Contacting the instructor will probably get you nowwhere ... but slowly
+- I've gonne throught most of the Q&A and sorted out how to get it working, without Udemy Q&A this would be more "challenging" :wink:
 
 ## Check out the course:
 **[https://www.udemy.com/full-stack](https://www.udemy.com/full-stack)**
