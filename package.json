@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run installBackend & npm run installFrontend && npm install && concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "installAll": "npm install && npm run installBackend & npm run installFrontend",
+    "start": "npm install && npm run installBackend & npm run installFrontend && concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
     "installBackend": "npm --prefix ./backend install ./backend",
     "installFrontend": "npm --prefix ./frontend install ./frontend",
-    "backend": "nodemon backend/bin/server",
+    "backend": "nodemon backend/app/server",
     "frontend": "parcel frontend/src/index.html"
   },
   "repository": {

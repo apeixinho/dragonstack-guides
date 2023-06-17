@@ -6,12 +6,12 @@ services:
     container_name: dragonstackdb
     volumes:
       - ./pgdata:/var/lib/postgresql/data
-      - ./backend/bin/sql/account.sql:/docker-entrypoint-initdb.d/1.sql
-      - ./backend/bin/sql/generation.sql:/docker-entrypoint-initdb.d/2.sql
-      - ./backend/bin/sql/dragon.sql:/docker-entrypoint-initdb.d/3.sql
-      - ./backend/bin/sql/trait.sql:/docker-entrypoint-initdb.d/4.sql
-      - ./backend/bin/sql/dragonTrait.sql:/docker-entrypoint-initdb.d/5.sql
-      - ./backend/bin/sql/accountDragon.sql:/docker-entrypoint-initdb.d/6.sql
+      - ./backend/sql/account.sql:/docker-entrypoint-initdb.d/1.sql
+      - ./backend/sql/generation.sql:/docker-entrypoint-initdb.d/2.sql
+      - ./backend/sql/dragon.sql:/docker-entrypoint-initdb.d/3.sql
+      - ./backend/sql/trait.sql:/docker-entrypoint-initdb.d/4.sql
+      - ./backend/sql/dragonTrait.sql:/docker-entrypoint-initdb.d/5.sql
+      - ./backend/sql/accountDragon.sql:/docker-entrypoint-initdb.d/6.sql
     ports:
       - '5432:5432'
     restart: on-failure:10

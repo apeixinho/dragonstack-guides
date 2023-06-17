@@ -1,2 +1,2 @@
-backend: nodemon ./backend/bin/server
+backend: nodemon ./backend/app/server
 frontend: parcel ./frontend/src/index.html

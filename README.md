@@ -4,12 +4,15 @@
 
 The official code for the *Master Full-Stack Development | Node, SQL, React, and More* course on Udemy by David Joseph Katz.
 
-Don't buy it. It's nearly worthless, nowadays. 
+Nowadays this project may be considered outdated. 
 
 This repository, however, retains some value.
 
 Why?
-- It's functional, I've gonne throught most of the Q&A and sort it out (good luck getting the original repository code working, without Udemy Q&A. Contacting the instructor will probably get you nowwhere ... but slowly, very slowly)
+- It works, it compiles and executes;
+
+How?
+- I've gonne throught most of the Q&A and sorted out how to get it working. Good luck getting the original repository code working, without Udemy Q&A. Contacting the instructor will probably get you nowwhere ... but slowly
 
 ## Check out the course:
 **[https://www.udemy.com/full-stack](https://www.udemy.com/full-stack)**
