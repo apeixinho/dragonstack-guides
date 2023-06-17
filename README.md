@@ -9,7 +9,7 @@ Nowadays this project may be considered outdated.
 This repository, however, retains some value.
 
 Why?
-- It works, it compiles and executes;
+- It compiles and executes;
 
 How?
 - I've gonne throught most of the Q&A and sorted out how to get it working, without Udemy Q&A this would be more "challenging" :wink:
